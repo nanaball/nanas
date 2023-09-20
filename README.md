@@ -82,17 +82,25 @@ GitHub
     4. 원격저장소 업데이트 (git push)
 
 - 깃으로 관리하는 파일의 4가지 상태
-    - 추적안된 상태(untracked)
-    - 추적된 상태 (tracked)
-        1. 수정 없음(unmodified)
-        2. 수정 함(modofied)
-        3. 스테이지 됨(staged)
+    - 추적안된 상태(untracked) : add를 하지 않은 경우
+    - 추적된 상태 (tracked) : 이미 add가 된 경우
+        1. 수정 없음(unmodified) : 변경사항 없으면
+        2. 수정 함(modofied) : 변경사항 있으면
+        3. 스테이지 됨(staged) : 스테이징 하면
     
     - 예시
         - 새로운 파일을 만들었을 떄
             - untracked(추적안된 상태)
         - add를 통해 스테이징 
-            - untracked -> staged    
+            - untracked -> staged
+            - 추적안됨 -> 스테이징(애딩)
+        - commit을 통해 snapshot    
+            - staged -> unmodified
+            - 스테이징 -> 수정없음
+        - 한번 add가 된 상태에서 파일 내용이 변경된 경우 
+            - unmodified -> modified
+
+
             
 
 
