@@ -95,7 +95,7 @@ public class spring
 ## 테이블 (표)
 - `<table>` 태그
 - 테이블 헤더를 구분하기 위해 3개 이상의 dash(-)가 필요
-- 테이블 간격에 vertical bar(|)가 필요
+- 테이블 간격에 vertical bar( | : 시프트 + = 오른쪽의\ )가 필요
 - 헤더 구분셀에서 colon(:)으로 정렬 가능 
 
 | th테이블헤더 | th | th |
