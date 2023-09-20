@@ -95,15 +95,15 @@ public class spring
 ## 테이블 (표)
 - `<table>` 태그
 - 테이블 헤더를 구분하기 위해 3개 이상의 dash(-)가 필요
-- 테이블 간격에 vertical bar(ㅣ)가 필요
+- 테이블 간격에 vertical bar(|)가 필요
 - 헤더 구분셀에서 colon(:)으로 정렬 가능 
 
-ㅣ th테이블헤더 ㅣ th ㅣ th ㅣ
-ㅣ --- ㅣ ---: ㅣ :---: ㅣ
-ㅣ td테이블내용 ㅣ 오른쪽정렬 ㅣ 가운데정렬 ㅣ
-ㅣ td테이블내용 ㅣ td ㅣ td ㅣ
-ㅣ td테이블내용 ㅣ td ㅣ td ㅣ
-ㅣ td테이블내용 ㅣ td ㅣ td ㅣ
+| th테이블헤더 | th | th |
+| --- | ---: | :---: |
+| td테이블내용 | 오른쪽정렬 | 가운데정렬 |
+| td테이블내용 | td | td |
+| td테이블내용 | td | td |
+| td테이블내용 | td | td |
 
 - [마크다운 테이블 생성기](https://www.tablesgenerator.com/markdown_tables)
 
