@@ -1,2 +1,2 @@
 #Pull requests
--풀 리퀘스트 연습 자료 입니다.
+깃 저장소 : https://github.com/Heyjune3/nanas.git
